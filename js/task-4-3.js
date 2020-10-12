@@ -3,7 +3,6 @@ const mult = (accum, element) => accum * element;
 const sub = (accum, element) => accum - element;
 
 function reduceArray(array, cb, initial) {
-  "use strict";
   let i;
   let accum;
   if (arguments.length >= 3) {
